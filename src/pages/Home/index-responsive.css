@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+
+    .container {
+        display: grid;
+        grid-template-areas: "main"
+                             "left-menu"
+                             "right-menu"  ;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px
+    }
+
+    .container > .container__left-menu {
+        grid-area: left-menu;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 48px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .container > .container__left-menu > .left-menu__profile-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container > .container__left-menu > .left-menu__profile-image > img {
+        max-width: 60%;
+    }
+
+    .container > .container__main {
+        grid-area: main;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .container > .container__main > .main__options > .options__list {
+        justify-content: flex-start;
+    }
+
+    .container > .container__right-menu {
+        grid-area: right-menu;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+    .container {
+        padding: 10px;
+    }
+
+    .container > .container__left-menu {
+        width: 22%;
+        margin: 0 0 48px 0;
+        padding: 5px;
+    }
+
+    .container > .container__left-menu > .left-menu__links  {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .container > .container__main {
+        margin: 0 10px 48px 10px;
+        width: 48%;
+    }
+
+    .container > .container__right-menu {
+        margin: 0 0 48px 0;
+
+    }
+}

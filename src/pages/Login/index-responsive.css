@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    .container__login {
+        padding: 10px;
+    }
+
+    .container__login > .login__card {
+        flex-direction: column;
+        min-height: auto;
+    }  
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .container__login {
+        padding: 10px 50px;
+    }
+    
+    .container__login > .login__card {
+        min-height: auto;
+    }
+}

@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .card-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .card-right > .card-right__form {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .card-right > .card-right__form {
+        padding: 0 20px;
+    }
+}

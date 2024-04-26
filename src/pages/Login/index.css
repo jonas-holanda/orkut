@@ -1,0 +1,13 @@
+.container__login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px 200px;
+}
+
+.container__login > .login__card {
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+}

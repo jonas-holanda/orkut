@@ -1,0 +1,30 @@
+.card-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 60%;
+    padding: 50px;
+    
+}
+
+.card-left > figure > img {
+    max-width: 150px;
+    user-select: none;
+}
+
+.card-left > .card-left__phrases {
+    margin-top: 40px;
+}
+
+.card-left > .card-left__phrases > p {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.card-left > .card-left__phrases > p > span{
+    color: #d81d99;
+    font-weight: 700;
+}
